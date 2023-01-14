@@ -8,4 +8,4 @@ numbers=$(echo "$1" | grep -o "[0-9]" | wc -l)
 
 # Output
 
-echo "Numbers $numbers: Symbols $special: Letters $char"
+echo "Numbers: $numbers Symbols: $special Letters: $char"
